@@ -1,0 +1,72 @@
+body{
+    background-image: url(Home_bg.jpg);
+    background-position: cover; 
+    background-size: 100% 100%;
+    /* object-position: center;*/
+} 
+ .Form{
+    margin: 1.05rem 23vw;
+    padding: 0.1rem 0 1.1rem 0;
+    /* padding: 1rem 1rem; */
+    border: 0 solid;
+    color: rgb(249, 248, 248);
+    border-radius: 100px;
+    box-shadow: rgba(146, 204, 238, 0.25) 0px 54px 55px, rgba(146, 204, 238, 0.25) 0px -12px 30px, rgba(146, 204, 238, 0.25) 0px 4px 6px, rgba(146, 204, 238, 0.25) 0px 12px 13px, rgba(146, 204, 238, 0.25) 0px -3px 5px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5));
+ }
+
+ .Form h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(126, 186, 246);
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-top: 0;
+}
+.Form .form_layout{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 2rem;
+   width: 40%;
+   margin-left: 30%;
+}
+.form_layout .item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.form_layout .item input,textarea{
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    background-image: linear-gradient(rgba(132, 128, 128, 0.3),rgba(61, 58, 58, 0.5)), url(Home_bg.jpg);
+    color: white;
+}
+.form_layout .item textarea{
+    height: 4rem;
+}
+.form_layout .button1 button{
+    margin-left: 30%;
+    background-color: aquamarine;
+    height: 2rem;
+    border: 0; 
+    border-radius: 5px;
+    width: 35%;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.form_layout .button1 button:hover{
+    color: rgb(10, 183, 125);
+    background-color: azure;
+}
+
+span{
+    font-size: 1rem;
+    color: white;
+}
